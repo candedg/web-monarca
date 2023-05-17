@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+    max-width: 1000px;
+}
+
+body{
+    background-color: #FFE3C8;
+}
+
+.titulo-home {
+    color: #6D8261;
+    font-family: 'Quattrocento', serif;
+    font-size: 60px;
+    line-height: 100px;
+    margin-top: 15%;
+    margin-left: 6%;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.item-mariposa{
+    position: absolute;
+    transform: translate(-50%, -50%) rotate(-30deg);
+    left: 8%;
+    top: 45%;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.subtitulo-home {
+    color: #414B3B;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 24px ;
+    margin-left: 19%;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.texto-home {
+    font-size: 18px;
+    font-family: 'Quattrocento', serif;
+    text-align: center;
+    color: #414B3B;
+    margin-left: 6%;
+    margin-right: 30%;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+
+.menu {
+    width: 500px;
+    height: 600px;
+    background-image: url(../img/mariposas\ hibernando.jpg); /* Ruta de la imagen de fondo */
+    background-size: cover; /* Ajusta la imagen de fondo al tamaño del contenedor */
+    border-radius: 30px;
+    border: 2px solid #414B3B;
+    filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.50));
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 4%;
+    right: 6%;
+}
+ ul {
+    list-style-type: none; /* Elimina los estilos de la lista */
+    padding: 0;
+    margin: 0;
+}
+ li {
+    background-color: rgba(140, 168, 124, 0.9); /* Color de fondo con opacidad */
+    margin-bottom: 10px; /* Espacio entre los ítems */
+    border-radius: 15px;
+    width: 400px; /* Ancho del rectángulo de fondo */
+    height: 73px; /* Alto del rectángulo de fondo */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    margin-top: 6%;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+  a {
+    display: block;
+    padding: 10px;
+    font-size: 35px;
+    color: #1E2617; /* Color del texto */
+    font-family: 'Josefin Sans', sans-serif;
+    text-decoration: none;
+}
